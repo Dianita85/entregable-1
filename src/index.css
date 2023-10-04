@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;/*ancho de texto */
+}
+
+*, *::after, *::before{ /* esto es para que el box-sising se herede*/
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0; /*bordes */
+    padding: 0; /*bordes */
+    font-family: 'Krub', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0; /*bordes */
+       
+}
+
+p{
+    margin: 0; /*bordes */
+}
+

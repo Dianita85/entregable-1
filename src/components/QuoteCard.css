@@ -1,0 +1,60 @@
+.quoteCard{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows:1fr auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color:black;
+    font-family: 'BECKENBOSS', sans-serif;
+   
+}
+
+
+.quoteCard__phrase {
+    margin: 60px auto;
+    max-width: 400px;
+    font-size: 1.5em;
+    background-color:black;
+    border-radius: 1rem;
+    padding: 40px;
+    opacity: 0.7;
+    color: white;
+}
+
+.quoteCard__title{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.quoteCard__btn{
+    position: relative;
+    display: inline-block;
+    padding: 14px; 
+    text-decoration: none;   
+    font-size: 5px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 100%;
+    transition: 0.2s;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quoteCard__btn:hover{
+    color:#255784;
+    background: #FFF5E0;
+    box-shadow: 0 0 10px#FF6969,  0 0 40px #C70039,  0 0 80px #141E46;
+}
+
+.but{
+    font-size: 20px;
+}
+
+
+.quoteCard__footer{
+    font-size: 1.5rem;
+    color: white;
+}
+
